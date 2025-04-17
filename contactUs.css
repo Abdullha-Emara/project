@@ -1,0 +1,39 @@
+body {
+    background: rgb(234, 234, 234);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc div {
+    text-align: center;
+}
+
+.desc .contact {
+    font-size: 28px;
+    font-weight: bold;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+form input {
+    padding-block: 10px;
+    padding-left: 10px;
+}
